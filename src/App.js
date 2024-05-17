@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './Components/Navbar/Navbar.js';
+import Home from './Pages/Home/Home.js';
+import AboutMe from './Pages/AboutMe/AboutMe.js';
+import Services from './Pages/Services/Services.js';
+import Projects from './Pages/Projects/Projects.js';
+import Certificates from './Pages/Certificates/Certificates.js';
+// import ContactMe from './Pages/Contact Me/ContactMe';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+const App = () => {
+    return (
+        <Router>
+            <Navbar/>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/aboutme" element={<AboutMe />} />
+                <Route path="/services" element={<Services />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/certificates" element={<Certificates />} />
+                {/* <Route path="/contactme" element={<ContactMe />} /> */}
+            </Routes>
+        </Router>
+    );
+};
 
 export default App;
