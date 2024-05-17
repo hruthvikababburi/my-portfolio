@@ -1,0 +1,31 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    color: #d9f3dc;/*ebfced*/
+}
+.home-context{
+}
+.home-context h2{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.home-context h1{
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.home-context h3{
+    font-size: 35px;
+    color: #27712f;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.home-context p{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.hruthvika-img{
+
+}

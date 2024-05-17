@@ -8,11 +8,12 @@ import Services from './Pages/Services/Services.js';
 import Projects from './Pages/Projects/Projects.js';
 import Certificates from './Pages/Certificates/Certificates.js';
 // import ContactMe from './Pages/Contact Me/ContactMe';
-
+import './App.css'
 
 const App = () => {
     return (
-        <Router>
+        <div className='App'>
+          <Router>
             <Navbar/>
             <Routes>
                 <Route path="/" element={<Home />} />
@@ -23,6 +24,7 @@ const App = () => {
                 {/* <Route path="/contactme" element={<ContactMe />} /> */}
             </Routes>
         </Router>
+        </div>
     );
 };
 

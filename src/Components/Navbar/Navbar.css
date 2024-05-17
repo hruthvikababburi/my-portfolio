@@ -1,13 +1,29 @@
 .navbar{
-
+    height:10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ebfced;
+    background-color: #161d16; /*#182719 09190b*/
 }
 
 .navbar-brand{
 
 }
-li{
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
 
 }
+.navbar-links a {    /*Link component from react-router-dom is not a traditional anchor (<a>) element, but it does render an anchor element under the hood. That's why you can style it using the a selector in CSS.*/
+    color: inherit; /* Use the same color as the surrounding text */
+    text-decoration: none; /* Remove underline */
+}
+li{
+    margin-right: 20px;
+}
 .active{
-
+    color: #27712f;
 }
