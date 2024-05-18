@@ -1,11 +1,15 @@
 .navbar{
-    height:10vh;
+    height:8vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #ebfced;
+    color: #d9f3dc;
     background-color: #161d16; /*#182719 09190b*/
+    align-items: center;
+    padding: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .navbar-brand{
@@ -23,6 +27,7 @@ ul{
 }
 li{
     margin-right: 20px;
+    font-size: 20px;
 }
 .active{
     color: #27712f;

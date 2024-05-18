@@ -1,6 +1,7 @@
 // src/components/Certificates.js
 import React from 'react';
 import './Certificates.css';
+import Navbar from '../../Components/Navbar/Navbar.js'
 
 const certificates = [
     { id: 1, imageUrl: 'cloudinary-url-to-certificate1.png' },
@@ -11,11 +12,14 @@ const certificates = [
 const Certificates = () => {
     return (
         <div className="certificates">
-            <h2>Certificates</h2>
-            <div className="certificates-gallery">
-                {certificates.map(cert => (
-                    <img key={cert.id} src={cert.imageUrl} alt={`Certificate ${cert.id}`} />
-                ))}
+            <Navbar/>
+            <div className='certificates-context'>
+                <h2>Certificates</h2>
+                <div className="certificates-gallery">
+                    {certificates.map(cert => (
+                        <img key={cert.id} src={cert.imageUrl} alt={`Certificate ${cert.id}`} />
+                    ))}
+                </div>
             </div>
         </div>
     );

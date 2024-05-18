@@ -1,38 +1,77 @@
 .home{
-    
+    color: #d9f3dc;/*ebfced*/
 }
 .home-sub-cont{
     display: flex;
     justify-content: space-around;
     color: #d9f3dc;/*ebfced*/
+    padding: 120px;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 58vh;
 }
 .home-context{
 }
 .home-context h2{
-    font-size: 25px;
+    font-size: 28px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .home-context h1{
-    font-size: 35px;
-    margin-top: 0px;
+    font-size: 40px;
+    margin-top: 2px;
     margin-bottom: 0px;
 }
 .home-context h3{
-    font-size: 35px;
+    font-size: 40px;
     color: #27712f;
-    margin-top: 0px;
+    margin-top: 2px;
     margin-bottom: 0px;
 }
 .home-context p{
     font-size: 20px;
-    margin-top: 0px;
+    margin-top: 4px;
     margin-bottom: 0px;
+}
+.connect-icons-cont{
+    margin-top: 18px;
+}
+.connect-icon{
+    margin-right: 8px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.5 ease;
+}
+.connect-icon:hover{
+    color: #27712f;
 }
 .hruthvika-img{
     width: 250px;
-    height: 250px;
+    height: 280px;
+    border: 5px solid #d9f3dc;
     border-radius: 200px;
-    border-color: #f1fde3;
-    border-width: 20px;
+    
+   
+}
+button{
+    background-color: #27712f;
+    padding: 10px;
+    color: #d9f3dc;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.download-icon{
+    margin-left: 5px;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #27712f;
+    color: #27712f;
+    cursor: pointer;
 }
