@@ -51,10 +51,10 @@ const Contact = () => {
 
                     <div className="input-card">
                         <input type="number" ref={numberRef} placeholder="Enter Your Mobile Number" required />
-                        <input type="text" ref={subjectRef} placeholder="Enter Subject Of The Mail" required />
+                        <input type="text" ref={subjectRef} placeholder="Subject of the mail" required />
                     </div>
 
-                    <textarea ref={messageRef} cols="30" rows="10" placeholder="Enter Your Message Here..."></textarea>
+                    <textarea ref={messageRef} cols="30" rows="10" placeholder="Message"></textarea>
                     
                     <button type="submit" className="button">Submit</button>
                 </form>
