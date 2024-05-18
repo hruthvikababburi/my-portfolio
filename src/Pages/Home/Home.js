@@ -1,5 +1,5 @@
 // src/components/Home.js
-import React from 'react';
+import React, { useEffect, useContext } from 'react';
 import './Home.css';
 import Navbar from '../../Components/Navbar/Navbar.js'
 import Footer from '../../Components/Footer/Footer.js'
@@ -7,8 +7,13 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { ImMail } from "react-icons/im";
 import { IoMdDownload } from "react-icons/io";
-
+import { ActivePageContext } from '../../Context/ActivePageContext.js';
 const Home = () => {
+    const { setActivePage } = useContext(ActivePageContext);
+
+    useEffect(() => {
+        setActivePage('home');
+    }, [setActivePage]);
     return (
         <div className="home">
             <Navbar/>

@@ -10,21 +10,26 @@ import Projects from './Pages/Projects/Projects.js';
 import Certificates from './Pages/Certificates/Certificates.js';
 import Contact from './Pages/Contact/Contact.js';
 import './App.css'
+import { ActivePageProvider } from '../src/Context/ActivePageContext.js'
 
 const App = () => {
+
     return (
-        <div className='App'>
-          <Router>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/aboutme" element={<AboutMe />} />
-                <Route path="/services" element={<Services />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/certificates" element={<Certificates />} />
-                <Route path="/contact" element={<Contact />} />
-            </Routes>
-        </Router>
-        </div>
+        <ActivePageProvider>
+            <div className='App'>
+                <Router>
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/aboutme" element={<AboutMe />} />
+                        <Route path="/services" element={<Services />} />
+                        <Route path="/projects" element={<Projects />} />
+                        <Route path="/certificates" element={<Certificates />} />
+                        <Route path="/contact" element={<Contact />} />
+                    </Routes>
+                </Router>
+            </div>
+        </ActivePageProvider>
+        
     );
 };
 
