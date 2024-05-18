@@ -38,7 +38,7 @@ const Services = () => {
         <div className="services">
             <Navbar />
             <div className="services-context">
-                <h2>My Services</h2>
+                <h2>My <span>Services</span></h2>
                 <div className="services-grid">
                     {services.map((service, index) => (
                         <div key={index} className="service-box">
@@ -49,6 +49,7 @@ const Services = () => {
                     ))}
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 };

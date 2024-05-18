@@ -1,6 +1,7 @@
 .home{
     color: #d9f3dc;/*ebfced*/
     min-height: 100vh;
+    background-color: ;
 }
 .home-sub-cont{
     display: flex;
