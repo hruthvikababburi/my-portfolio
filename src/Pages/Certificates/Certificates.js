@@ -26,7 +26,7 @@ const Certificates = () => {
         <div className="certificates">
             <Navbar />
             <div className="certificates-content">
-                <h2>My Certificates</h2>
+                <h2>My <span>Certificates</span> </h2>
                 <div className="certificates-grid">
                     {certificates.map((certificate, index) => (
                         <div key={index} className="certificate-box">
