@@ -1,14 +1,17 @@
 .home{
     color: #d9f3dc;/*ebfced*/
+    min-height: 100vh;
 }
 .home-sub-cont{
     display: flex;
     justify-content: space-around;
     color: #d9f3dc;/*ebfced*/
-    padding: 120px;
+    padding-top: 100px;
     padding-left: 60px;
     padding-right: 60px;
+    padding-bottom: 145px;
     height: 58vh;
+
 }
 .home-context{
 }

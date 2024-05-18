@@ -1,0 +1,27 @@
+.about-me{
+    min-height: 100vh;
+}
+.about-context{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #d9f3dc;/*ebfced*/
+    padding: 90px;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 58vh;
+    padding-bottom: 155px;
+    
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+}
+span{
+    color: #27712f;
+}
+p{
+    font-size: 20px;
+}
