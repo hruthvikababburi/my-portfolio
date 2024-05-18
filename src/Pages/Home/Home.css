@@ -1,6 +1,9 @@
 .home{
+    
+}
+.home-sub-cont{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: #d9f3dc;/*ebfced*/
 }
 .home-context{
@@ -27,5 +30,9 @@
     margin-bottom: 0px;
 }
 .hruthvika-img{
-
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    border-color: #f1fde3;
+    border-width: 20px;
 }
