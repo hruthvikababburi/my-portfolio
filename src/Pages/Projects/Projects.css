@@ -42,6 +42,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     
 }
 
@@ -59,12 +60,16 @@
     font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
+    padding-bottom: 30px;
 }
 .project-content a {
-    color: #000;
+    color: #031005;
     text-decoration: none;
 }
 
 .project-content a:hover {
     text-decoration: underline;
+}
+.redirect{
+  
 }

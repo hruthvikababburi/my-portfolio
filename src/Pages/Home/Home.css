@@ -14,6 +14,10 @@
     height: 58vh;
 
 }
+.home a{
+    color: inherit; /* Use the color inherited from the parent */
+    text-decoration: none; /* Remove underline */
+}
 .home-context{
 }
 .home-context h2{

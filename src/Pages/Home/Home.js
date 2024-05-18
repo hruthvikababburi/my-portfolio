@@ -8,6 +8,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { ImMail } from "react-icons/im";
 import { IoMdDownload } from "react-icons/io";
 import { ActivePageContext } from '../../Context/ActivePageContext.js';
+
 const Home = () => {
     const { setActivePage } = useContext(ActivePageContext);
 
@@ -24,11 +25,21 @@ const Home = () => {
                     <h3>Innovative Full-Stack Developer & <h3>Passionate Learner</h3></h3>
                     <p>Architecting End-to-End Solutions, Bridging Innovation with Technology</p>
                     <div class="connect-icons-cont">
-                        <FaGithubSquare className='connect-icon'/>
-                        <FaLinkedin className='connect-icon'/>
-                        <ImMail className='connect-icon'/>
+                        <a href='https://github.com/hruthvikababburi' target='blank' className='connect-icon'>
+                            <FaGithubSquare className='connect-icon'/>
+                        </a>
+                        <a href='https://www.linkedin.com/in/hruthvikababburi2508/' target='blank'>
+                            <FaLinkedin className='connect-icon'/>
+                        </a>
+                        <a href='mailto:hruthvikababburi@gmail.com' target='blank'>
+                            <ImMail className='connect-icon'/>  
+                        </a>
+                        
                     </div>
-                    <button>Download Resume <IoMdDownload className='download-icon'/></button>
+                    <a href='/Resumefile/HruthvikaResume2024.pdf' download='HruthvikaResume.pdf'>
+                        <button>Download Resume <IoMdDownload className='download-icon'/></button>
+                    </a>
+                    
                     
                 </div>
                 <img src='https://res.cloudinary.com/dhumgt3fp/image/upload/v1716020254/Hruthvika_img_xmc6qg.jpg' alt='Hruthvika Babburi' className='hruthvika-img'/>

@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../../Components/Navbar/Navbar.js';
 import Footer from '../../Components/Footer/Footer.js';
 import './Projects.css';
-
+import { LiaExternalLinkAltSolid } from "react-icons/lia";
 const Projects = () => {
     return (
         <div>
@@ -25,8 +25,8 @@ const Projects = () => {
                                 replica of Flipkart or Amazon. Username: rahul, Password:
                                 rahul@2021
                             </p>
-                            <a href="https://bgk.ccbp.tech/login">
-                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                            <a href="https://hrushoppingapp.ccbp.tech/login" target='blank'>
+                                <LiaExternalLinkAltSolid size={25} className='redirect'/>
                             </a>
                         </div>
                     </div>
@@ -41,8 +41,8 @@ const Projects = () => {
                             <p>
                             A comprehensive tool to help you organize, prioritize, and track your daily tasks efficiently.
                             </p>
-                            <a href="https://bgk.ccbp.tech/login">
-                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                            <a href="https://todolist-tmanager.vercel.app/" target='blank'>
+                                <LiaExternalLinkAltSolid size={25} className='redirect'/>
                             </a>
                         </div>
                     </div>
@@ -57,8 +57,8 @@ const Projects = () => {
                             <p>
                             An app for quickly noting and saving your spontaneous thoughts and ideas.
                             </p>
-                            <a href="https://bgk.ccbp.tech/login">
-                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                            <a href="https://my-snapthought.vercel.app/" target='blank'> 
+                                <LiaExternalLinkAltSolid size={25} className='redirect'/>
                             </a>
                         </div>
                     </div>
@@ -73,8 +73,8 @@ const Projects = () => {
                             <p>
                             A secure solution to store, manage, and generate strong passwords for all your accounts. 
                             </p>
-                            <a href="https://bgk.ccbp.tech/login">
-                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                            <a href="https://hrupswrdmanager.ccbp.tech/" target='blank'>
+                                <LiaExternalLinkAltSolid size={25} className='redirect'/>
                             </a>
                         </div>
                     </div>
@@ -89,8 +89,8 @@ const Projects = () => {
                             <p>
                             An intuitive application to manage your finances, track expenses, and budget your income effectively.
                             </p>
-                            <a href="https://bgk.ccbp.tech/login">
-                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                            <a href="https://hrumoneymanager.ccbp.tech/" target='blank'>
+                                <LiaExternalLinkAltSolid size={25} className='redirect'/>
                             </a>
                         </div>
                     </div>
