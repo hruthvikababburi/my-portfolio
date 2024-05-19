@@ -1,15 +1,21 @@
 /* Contact.css */
-
+.contact{
+    background-color: #141d14;
+}
 .contact-container {
     max-width: 35rem;
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 2rem;
     padding: 0 1rem; /* Added padding for better spacing */
+    margin-top: 40px;
+    
 }
 
 .contact-container .heading {
     margin-bottom: 1.5rem;
+    font-size: 40px;
+
 }
 
 .contact-container .input-card {
@@ -35,6 +41,7 @@
     font-size: 1.2rem;
     margin: 1rem auto 0; /* Center the button horizontally */
     cursor: pointer;
+    /* margin-bottom: 50px; */
 }
 
 /* Media Query for responsiveness */
@@ -42,5 +49,10 @@
     .contact-container .input-card input,
     .contact-container textarea {
         width: calc(100% - 2rem); /* Adjusted width to account for padding */
+    }
+    .contact-container .heading {
+        margin-bottom: 1.5rem;
+        font-size: 30px;
+    
     }
 }

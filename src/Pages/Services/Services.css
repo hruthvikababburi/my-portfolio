@@ -1,6 +1,6 @@
 /* src/styles/Services.css */
 .services {
-    background-color: #161d16;
+    background-color: #141d14;
     min-height: 100vh;
     color: #d9f3dc;
     display: flex;
@@ -42,6 +42,7 @@
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .service-box:hover {
@@ -73,7 +74,7 @@
     }
 
     .services-context h2 {
-        font-size: 32px; /* Adjust font size for smaller screens */
+        font-size: 30px; /* Adjust font size for smaller screens */
     }
 
     .service-icon {

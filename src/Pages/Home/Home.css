@@ -2,7 +2,7 @@
 .home {
     color: #d9f3dc; /*ebfced*/
     min-height: 100vh;
-    background-color: #161d16;
+    background-color: #141d14;
 }
 
 .home-sub-cont {
@@ -49,7 +49,7 @@
 
 .home-context p {
     font-size: 20px;
-    margin-top: 4px;
+    margin-top: 10px;
     margin-bottom: 0;
 }
 

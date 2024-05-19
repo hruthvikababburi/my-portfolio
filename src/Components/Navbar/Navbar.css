@@ -1,35 +1,82 @@
-.navbar{
-    height:8vh;
+.navbar {
+    height: 9vh;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #d9f3dc;
-    background-color: #161d16; /*#182719 09190b*/
     align-items: center;
-    padding: 10px;
-    padding-left: 150px;
-    padding-right: 150px;
-    
-}
-
-.navbar-brand{
-
-}
-ul{
+    padding: 0 20px; /* Added padding for better spacing */
+    background-color: #161d16;
+    color: #d9f3dc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #021904;
+  }
+  
+  .navbar-brand {
+    margin: 0; /* Reset margin */
+  }
+  
+  .navbar-links {
     display: flex;
-    justify-content: space-between;
     list-style-type: none;
-
-}
-.navbar-links a {    /*Link component from react-router-dom is not a traditional anchor (<a>) element, but it does render an anchor element under the hood. That's why you can style it using the a selector in CSS.*/
-    color: inherit; /* Use the same color as the surrounding text */
-    text-decoration: none; /* Remove underline */
-}
-li{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-links li {
     margin-right: 20px;
-    font-size: 20px;
-}
-.active{
-    color: #27712f;
-}
+  }
+  
+  .navbar-links a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .menu-icon {
+    display: none; /* Initially hide the hamburger menu icon */
+  }
+  .active{
+    color: #1f6f1f;
+    font-weight: 700;
+  }
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 0 10px; /* Adjust padding for small screens */
+      height: 8vh;
+    }
+  
+    .navbar-links {
+      display: none; /* Initially hide the menu items */
+      flex-direction: column; /* Change menu items direction to column */
+      position: absolute;
+      top: 8vh; /* Position below the navbar */
+      left: 0;
+      width: 100%;
+      background-color: #161d16;
+      padding: 10px 0;
+      margin: 0;
+      /* border-top: 1px solid #fff; Add separator line */
+    }
+  
+    .navbar-links.open {
+      display: flex; /* Show menu items when open class is applied */
+    }
+  
+    .navbar-links li {
+      margin: 0; /* Reset margin for menu items */
+      padding-bottom: 12px;
+      padding-left: 10px;
+    }
+  
+    .menu-icon {
+      display: block; /* Show the hamburger menu icon */
+      font-size: 1.5rem; /* Adjust icon size */
+      cursor: pointer;
+      margin-right: 20px; /* Add margin to separate icon from brand */
+    }
+  
+    .navbar-brand {
+      margin-right: auto; /* Move the brand to the left */
+    }
+  }
+  
