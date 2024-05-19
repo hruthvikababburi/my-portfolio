@@ -90,6 +90,7 @@ footer {
 @media (max-width: 768px) {
     .projects {
         padding: 30px 20px;
+        padding-top: 100px;
     }
 
     .projects h2 {
@@ -117,6 +118,7 @@ footer {
 @media (max-width: 480px) {
     .projects {
         padding: 20px 10px;
+        padding-top: 100px;
     }
 
     .projects h2 {

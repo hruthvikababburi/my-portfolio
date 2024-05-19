@@ -72,6 +72,7 @@
 @media (max-width: 768px) {
     .services-context {
         padding: 20px 10px; /* Adjust padding for smaller screens */
+        padding-top: 100px;
     }
 
     .services-context h2 {
