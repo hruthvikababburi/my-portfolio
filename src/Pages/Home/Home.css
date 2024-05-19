@@ -1,69 +1,83 @@
-.home{
-    color: #d9f3dc;/*ebfced*/
+/* src/styles/Home.css */
+.home {
+    color: #d9f3dc; /*ebfced*/
     min-height: 100vh;
-    background-color: ;
+    background-color: #161d16;
 }
-.home-sub-cont{
+
+.home-sub-cont {
     display: flex;
     justify-content: space-around;
-    color: #d9f3dc;/*ebfced*/
+    align-items: center;
+    color: #d9f3dc; /*ebfced*/
     padding-top: 100px;
     padding-left: 60px;
     padding-right: 60px;
     padding-bottom: 145px;
     height: 58vh;
-
+    gap: 40px; /* Add gap to ensure spacing between items */
 }
-.home a{
+
+.home a {
     color: inherit; /* Use the color inherited from the parent */
     text-decoration: none; /* Remove underline */
 }
-.home-context{
+
+.home-context {
+    max-width: 600px;
+    text-align: left; /* Align text to the left */
 }
-.home-context h2{
+
+.home-context h2 {
     font-size: 28px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
-.home-context h1{
+
+.home-context h1 {
     font-size: 40px;
     margin-top: 2px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
-.home-context h3{
-    font-size: 40px;
+
+.home-context h3 {
+    font-size: 30px;
     color: #27712f;
     margin-top: 2px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
-.home-context p{
+
+.home-context p {
     font-size: 20px;
     margin-top: 4px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
-.connect-icons-cont{
+
+.connect-icons-cont {
     margin-top: 18px;
 }
-.connect-icon{
+
+.connect-icon {
     margin-right: 8px;
     font-size: 30px;
     cursor: pointer;
-    transition: 0.5 ease;
+    transition: 0.3s ease; /* Shorten transition time for better responsiveness */
 }
-.connect-icon:hover{
+
+.connect-icon:hover {
     color: #27712f;
 }
-.hruthvika-img{
+
+.hruthvika-img {
     width: 250px;
     height: 280px;
     border: 5px solid #d9f3dc;
-    border-radius: 200px;
-    
-   
+    border-radius: 50%; /* Make image circular */
 }
-button{
+
+button {
     background-color: #27712f;
-    padding: 10px;
+    padding: 10px 20px; /* Adjust padding for better button size */
     color: #d9f3dc;
     font-size: 18px;
     border: none;
@@ -71,15 +85,64 @@ button{
     margin-top: 18px;
     display: flex;
     align-items: center;
-    
-
+    transition: 0.3s ease; /* Shorten transition time */
 }
-.download-icon{
+
+.download-icon {
     margin-left: 5px;
 }
-button:hover{
+
+button:hover {
     background-color: transparent;
     border: 2px solid #27712f;
     color: #27712f;
     cursor: pointer;
+}
+
+/* Media Queries for Smaller Devices */
+@media (max-width: 768px) {
+    .home-sub-cont {
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        height: auto; /* Allow height to adjust based on content */
+        gap: 20px; /* Reduce gap for smaller screens */
+    }
+
+    .home-context {
+        text-align: center; /* Center text for better mobile view */
+    }
+
+    .home-context h1 {
+        font-size: 32px;
+    }
+
+    .home-context h2 {
+        font-size: 24px;
+    }
+
+    .home-context h3 {
+        font-size: 24px;
+    }
+
+    .home-context p {
+        font-size: 18px;
+    }
+
+    .hruthvika-img {
+        width: 200px;
+        height: 230px;
+    }
+
+    button {
+        padding: 8px 16px; /* Adjust padding for smaller screens */
+        font-size: 16px;
+        margin-left: 90px
+    }
+
+    .connect-icon {
+        font-size: 24px; /* Adjust icon size for smaller screens */
+    }
 }
