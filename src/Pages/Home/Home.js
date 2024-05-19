@@ -15,6 +15,7 @@ const Home = () => {
     useEffect(() => {
         setActivePage('home');
     }, [setActivePage]);
+    
     return (
         <div className="home">
             <Navbar/>

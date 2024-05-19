@@ -35,6 +35,7 @@
     background: var(--snd-bg-color);
     border-radius: 0.3rem;
     border: 1px solid #ccc;
+    cursor: pointer;
 }
 
 .contact-container .button {
