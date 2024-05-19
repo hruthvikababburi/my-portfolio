@@ -5,6 +5,7 @@
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 2rem;
+    padding: 0 1rem; /* Added padding for better spacing */
 }
 
 .contact-container .heading {
@@ -14,14 +15,13 @@
 .contact-container .input-card {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 1rem; /* Increased gap between input fields */
     margin-bottom: 10px;
-
 }
 
 .contact-container .input-card input,
 .contact-container textarea {
-    width: 100%;
+    width: calc(100% - 2rem); /* Adjusted width to account for padding */
     padding: 0.8rem;
     font-size: 1.2rem;
     color: #f9fef3;
@@ -30,14 +30,17 @@
     border: 1px solid #ccc;
 }
 
-.contact-container .input-card input {
-    width: 100%;
-}
-
 .contact-container .button {
     padding: 0.8rem 1.5rem;
     font-size: 1.2rem;
-    margin-top: 1rem;
+    margin: 1rem auto 0; /* Center the button horizontally */
     cursor: pointer;
-    
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .contact-container .input-card input,
+    .contact-container textarea {
+        width: calc(100% - 2rem); /* Adjusted width to account for padding */
+    }
 }
