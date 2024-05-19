@@ -1,7 +1,10 @@
 /* src/styles/Services.css */
 .services {
-    background-color: ;
+    background-color: #161d16;
     min-height: 100vh;
+    color: #d9f3dc;
+    display: flex;
+    flex-direction: column;
 }
 
 .services-context {
@@ -9,13 +12,17 @@
     flex-direction: column;
     align-items: center;
     padding: 25px;
-    height: 83vh;
+    flex: 1; /* Ensure the context area takes up the remaining space */
 }
 
 .services-context h2 {
     font-size: 40px;
     margin-bottom: 30px;
     color: #e3f8ca;
+}
+
+.services-context span {
+    color: #27712f;
 }
 
 .services-grid {
@@ -26,7 +33,6 @@
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 40px;
-    
 }
 
 .service-box {
@@ -50,7 +56,7 @@
 }
 
 .service-box h3 {
-    font-size: 1.rem;
+    font-size: 1.2rem;
     margin-bottom: 10px;
     color: #161d16;
 }
@@ -58,4 +64,27 @@
 .service-box p {
     font-size: 1rem;
     color: #161d16;
+}
+
+/* Media Queries for Smaller Devices */
+@media (max-width: 768px) {
+    .services-context {
+        padding: 20px 10px; /* Adjust padding for smaller screens */
+    }
+
+    .services-context h2 {
+        font-size: 32px; /* Adjust font size for smaller screens */
+    }
+
+    .service-icon {
+        font-size: 2.5rem; /* Adjust icon size for smaller screens */
+    }
+
+    .service-box h3 {
+        font-size: 1.1rem; /* Adjust font size for smaller screens */
+    }
+
+    .service-box p {
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
 }
