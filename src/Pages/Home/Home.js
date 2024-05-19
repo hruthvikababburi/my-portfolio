@@ -25,7 +25,7 @@ const Home = () => {
                     <h3>Innovative Full-Stack Developer & <h3>Passionate Learner</h3></h3>
                     <p>Architecting End-to-End Solutions, Bridging Innovation with Technology</p>
                     <div class="connect-icons-cont">
-                        <a href='https://github.com/hruthvikababburi' target='blank' className='connect-icon'>
+                        <a href='https://github.com/hruthvikababburi' target='blank'>
                             <FaGithubSquare className='connect-icon'/>
                         </a>
                         <a href='https://www.linkedin.com/in/hruthvikababburi2508/' target='blank'>
