@@ -47,13 +47,17 @@
 
 /* Media Query for responsiveness */
 @media (max-width: 768px) {
+    .contact-container{
+        padding-top: 60px;
+    }
     .contact-container .input-card input,
     .contact-container textarea {
         width: calc(100% - 2rem); /* Adjusted width to account for padding */
     }
     .contact-container .heading {
         margin-bottom: 1.5rem;
-        font-size: 30px;
+        font-size: 25px;
+        padding-bottom: 10px;
     
     }
 }
