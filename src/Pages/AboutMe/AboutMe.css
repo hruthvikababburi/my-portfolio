@@ -1,27 +1,46 @@
-.about-me{
+/* src/styles/AboutMe.css */
+.about-me {
     min-height: 100vh;
+    background-color: #161d16;
+    color: #d9f3dc;
 }
-.about-context{
-    flex:1;
+
+.about-context {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #d9f3dc;/*ebfced*/
-    padding: 90px;
-    padding-left: 60px;
-    padding-right: 60px;
-    height: 58vh;
-    padding-bottom: 155px;
-    
+    padding: 90px 60px 155px 60px;
     text-align: center;
 }
-h2{
+
+h2 {
     font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px; /* Add margin for better spacing */
 }
-span{
+
+span {
     color: #27712f;
 }
-p{
+
+p {
     font-size: 20px;
+    margin-bottom: 15px; /* Add margin for better spacing between paragraphs */
+}
+
+/* Media Queries for Smaller Devices */
+@media (max-width: 768px) {
+    .about-context {
+        padding: 50px 20px 50px 20px; /* Adjust padding for smaller screens */
+    }
+
+    h2 {
+        font-size: 32px; /* Adjust font size for smaller screens */
+    }
+
+    p {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        margin-bottom: 10px; /* Adjust margin for better spacing */
+    }
 }
