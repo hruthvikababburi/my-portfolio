@@ -10,8 +10,7 @@ const Projects = () => {
             <section className="projects" id="project">
                 <h2 className="heading">My<span> Projects</span></h2>
                 <div className="project-container">
-                    {/* Project Cards Here */}
-                    {/* Repeat the following block for each project */}
+                    
                     <div className="project-card">
                         <img
                             src="https://res.cloudinary.com/dhumgt3fp/image/upload/v1716058794/1_iAu65xDmvpVdBJgps6EDEw_vfyk5f.png"
@@ -21,8 +20,7 @@ const Projects = () => {
                         <div className="project-content">
                             <h4>NxT Trendz</h4>
                             <p>
-                                NxT Trendx is a E-Commerce website built using ReactJS. It's
-                                replica of Flipkart or Amazon. Username: rahul, Password:
+                                NxT Trendx is a E-Commerce website built using ReactJS. Username: rahul, Password:
                                 rahul@2021
                             </p>
                             <a href="https://hrushoppingapp.ccbp.tech/login" target='blank'>
@@ -94,7 +92,7 @@ const Projects = () => {
                             </a>
                         </div>
                     </div>
-                    {/* End of Project Cards */}
+                    
                 </div>
             </section>
             <Footer />
