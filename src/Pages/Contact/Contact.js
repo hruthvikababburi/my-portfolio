@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import './Contact.css';
 import Navbar from '../../Components/Navbar/Navbar.js'; // Assuming the Navbar component is in the same directory
 import Footer from '../../Components/Footer/Footer.js'; // Assuming the Footer component is in the same directory
+import { GrSend } from "react-icons/gr";
 
 const Contact = () => {
     const nameRef = useRef(null);
@@ -56,7 +57,7 @@ const Contact = () => {
 
                     <textarea ref={messageRef} cols="30" rows="10" placeholder="Message"></textarea>
                     
-                    <button type="submit" className="button">Submit</button>
+                    <button type="submit" className="button">Send <GrSend size={15} className='send'/></button>
                 </form>
             </div>
             <Footer />

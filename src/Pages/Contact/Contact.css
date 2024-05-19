@@ -18,7 +18,9 @@
     font-size: 40px;
 
 }
-
+.send{
+    padding-left: 5px;
+}
 .contact-container .input-card {
     display: flex;
     flex-direction: column;
