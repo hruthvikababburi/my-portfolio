@@ -85,10 +85,8 @@
 }
 
 .redirect {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 5px;
+    
+   
 }
 
 /* Ensure the footer sticks to the bottom */

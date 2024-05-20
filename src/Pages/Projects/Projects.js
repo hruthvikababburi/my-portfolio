@@ -24,7 +24,7 @@ const Projects = () => {
                                 rahul@2021
                             </p>
                             <a href="https://hrushoppingapp.ccbp.tech/login" target='blank'>
-                                <LiaExternalLinkAltSolid size={25} className='redirect'/>
+                                <LiaExternalLinkAltSolid   className='redirect'/>
                             </a>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ const Projects = () => {
                             A comprehensive tool to help you organize, prioritize, and track your daily tasks efficiently.
                             </p>
                             <a href="https://todolist-tmanager.vercel.app/" target='blank'>
-                                <LiaExternalLinkAltSolid size={25} className='redirect'/>
+                                <LiaExternalLinkAltSolid   className='redirect'/>
                             </a>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ const Projects = () => {
                             An app for quickly noting and saving your spontaneous thoughts and ideas.
                             </p>
                             <a href="https://my-snapthought.vercel.app/" target='blank'> 
-                                <LiaExternalLinkAltSolid size={25} className='redirect'/>
+                                <LiaExternalLinkAltSolid   className='redirect'/>
                             </a>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ const Projects = () => {
                             A secure solution to store, manage, and generate strong passwords for all your accounts. 
                             </p>
                             <a href="https://hrupswrdmanager.ccbp.tech/" target='blank'>
-                                <LiaExternalLinkAltSolid size={25} className='redirect'/>
+                                <LiaExternalLinkAltSolid   className='redirect'/>
                             </a>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ const Projects = () => {
                             An intuitive application to manage your finances, track expenses, and budget your income effectively.
                             </p>
                             <a href="https://hrumoneymanager.ccbp.tech/" target='blank'>
-                                <LiaExternalLinkAltSolid size={25} className='redirect'/>
+                                <LiaExternalLinkAltSolid   className='redirect'/>
                             </a>
                         </div>
                     </div>
