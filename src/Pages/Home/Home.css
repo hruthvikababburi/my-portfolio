@@ -3,6 +3,10 @@
     color: #d9f3dc; /*ebfced*/
     min-height: 100vh;
     background-color: #141d14;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .home-sub-cont {
@@ -103,16 +107,21 @@ button:hover {
 @media (max-width: 768px) {
     .home-sub-cont {
         flex-direction: column;
+        padding: 10px;
         padding-top: 150px;
-        padding-left: 20px;
-        padding-right: 20px;
+        align-items: center;
+        justify-content: center;
         padding-bottom: 50px;
         height: auto; /* Allow height to adjust based on content */
         gap: 20px; /* Reduce gap for smaller screens */
     }
 
     .home-context {
-        text-align: center; /* Center text for better mobile view */
+        padding: 0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .home-context h1 {
@@ -139,6 +148,10 @@ button:hover {
     button {
         padding: 8px 16px; /* Adjust padding for smaller screens */
         font-size: 16px;
+        
+       margin:auto;
+       margin-top: 8px;
+       margin-bottom: 2px;
        
     }
 

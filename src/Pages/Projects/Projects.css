@@ -1,8 +1,14 @@
 /* src/styles/Projects.css */
+
+.projects-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .projects {
     padding: 50px;
     min-height: calc(100vh - 150px); /* Ensure the section takes up at least the full viewport height */
-    box-sizing: border-box; /* Include padding in the element's total height and width */
+    /* box-sizing: border-box; Include padding in the element's total height and width */
     background-color: #141d14;
     padding-top: 100px;
 }

@@ -5,7 +5,7 @@ import './Projects.css';
 import { LiaExternalLinkAltSolid } from "react-icons/lia";
 const Projects = () => {
     return (
-        <div>
+        <div className='projects-cont'>
             <Navbar />
             <section className="projects" id="project">
                 <h2 className="heading">My<span> Projects</span></h2>
